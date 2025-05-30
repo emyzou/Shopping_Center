@@ -39,24 +39,6 @@ public class Data {
        }else{
            this.dia = dia;
        }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
 
     public int getDia() {
@@ -95,12 +77,4 @@ public class Data {
     public String toString(){
         return dia + "/" + mes + "/" + ano;
     }
-
-
-
-
-
-
-
-
 }
