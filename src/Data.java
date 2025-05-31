@@ -13,6 +13,7 @@ public class Data {
         }else{
             this.ano = ano;
         }
+
         if ( mes < 1 || mes >12){
             System.out.println("Data inválida: mes inválido");
             this.dia = 1;
@@ -21,6 +22,7 @@ public class Data {
         }else{
             this.mes = mes;
         }
+
        if (dia < 1 || dia > 31){
            System.out.println("Data inválida: dia invalido");
            this.dia = 1;

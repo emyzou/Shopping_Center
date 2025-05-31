@@ -43,11 +43,10 @@ public class Produto {
         }else{
             return false;
         }
-
     }
     @Override
     public String toString(){
-        return nome + " " + preco + " ";
+        return nome + " " + preco + " " + dataValidade;
     }
 }
 
