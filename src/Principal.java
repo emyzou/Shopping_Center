@@ -68,7 +68,7 @@ public class Principal {
 
                     Endereco enderecoLoja = new Endereco (ruaLoja, cidadeLoja, estadoLoja, paisLoja, cepLoja, numeroLoja,complementoLoja);
 
-                    Loja loja = new Loja(nomeLoja, funcionariosLoja, salarioLoja, enderecoLoja, dataFundacao);
+                    Loja loja = new Loja(nomeLoja, funcionariosLoja, salarioLoja, enderecoLoja, dataFundacao, 10);
 
                     System.out.println("Loja criada com sucesso");
 

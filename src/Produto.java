@@ -36,14 +36,18 @@ public class Produto {
     public boolean estaVencido (Data data ){
         if ( data.getAno() > dataValidade.getAno() ){
             return true;
+
         }else if( data.getAno() == dataValidade.getAno() && data.getMes() > dataValidade.getMes()){
             return true;
+
         } else if ( data.getAno() == dataValidade.getAno() && data.getMes() == dataValidade.getMes() && data.getDia() > dataValidade.getDia()){
             return true;
+
         }else{
             return false;
         }
     }
+
     @Override
     public String toString(){
         return nome + " " + preco + " " + dataValidade;
